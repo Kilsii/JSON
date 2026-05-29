@@ -17,7 +17,6 @@ class Program
         public string AccessLevel { get; set; }
     }
 
-    
     public class RegularUser : User
     {
         public string Subscription { get; set; }
@@ -25,11 +24,15 @@ class Program
 
     static void Main(string[] args)
     {
-       
-        Admin admin = new Admin { Name = "Kilsi", Age = 18, City = "Siaulai", AccessLevel = "Admin" };
-        RegularUser regular = new RegularUser { Name = "Sarah", Age = 15, City = "Porthara", Subscription = "Free" };
+        string filePath = "user_types.json";
+        string jsonData = File.ReadAllText(filePath);
 
-        Console.WriteLine($"Admin - Name: {admin.Name}, Age: {admin.Age}, City: {admin.City}, Access: {admin.AccessLevel}");
-        Console.WriteLine($"User - Name: {regular.Name}, Age: {regular.Age}, City: {regular.City}, Subscription: {regular.Subscription}");
+        // Deserialize as a list of Admin (contains all fields)
+        List<Admin> admins = JsonConvert.DeserializeObject<List<Admin>>(jsonData);
+
+        foreach (Admin user in admins)
+        {
+            Console.WriteLine($"Name: {user.Name}, Age: {user.Age}, City: {user.City}, Access: {user.AccessLevel}");
+        }
     }
 }

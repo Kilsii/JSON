@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Name": "Kilsi",
+    "Age": 18,
+    "City": "Siaulai",
+    "AccessLevel": "Admin",
+    "Subscription": null
+  },
+  {
+    "Name": "Sarah",
+    "Age": 15,
+    "City": "Porthara",
+    "AccessLevel": "Regular",
+    "Subscription": "Free"
+  },
+  {
+    "Name": "Cloudy",
+    "Age": 22,
+    "City": "Vilnius",
+    "AccessLevel": "SuperAdmin",
+    "Subscription": null
+  }
+]
