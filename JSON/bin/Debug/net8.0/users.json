@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "Name": "Kilsi",
     "Age": 18,
@@ -8,5 +8,10 @@
     "Name": "Sarah",
     "Age": 15,
     "City": "Porthara"
+  },
+  {
+    "Name": "Cloudy",
+    "Age": 22,
+    "City": "Vilnius"
   }
 ]
