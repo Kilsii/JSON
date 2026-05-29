@@ -2,6 +2,11 @@
 using System;
 using System.IO;
 
+using Newtonsoft.Json;
+using System;
+using System.IO;
+using System.Collections.Generic;
+
 class Program
 {
     public class User
@@ -14,11 +19,18 @@ class Program
     static void Main(string[] args)
     {
         string filePath = "users.json";
-        string jsonData = File.ReadAllText(filePath);
-        User user = JsonConvert.DeserializeObject<User>(jsonData);
 
-        Console.WriteLine($"Name: {user.Name}");
-        Console.WriteLine($"Age: {user.Age}");
-        Console.WriteLine($"City: {user.City}");
+        // Read and deserialize the existing list
+        string jsonData = File.ReadAllText(filePath);
+        List<User> users = JsonConvert.DeserializeObject<List<User>>(jsonData);
+
+        // Add a new user
+        users.Add(new User { Name = "Sarah", Age = 15, City = "Porthara" });
+
+        // Save the updated list back to the file
+        string updatedJson = JsonConvert.SerializeObject(users, Formatting.Indented);
+        File.WriteAllText(filePath, updatedJson);
+
+        Console.WriteLine("New user added successfully!");
     }
 }

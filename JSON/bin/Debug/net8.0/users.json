@@ -1,5 +1,12 @@
-﻿{
-  "Name": "Kilsi",
-  "Age": 18,
-  "City": "Siaulai"
-}
+[
+  {
+    "Name": "Kilsi",
+    "Age": 18,
+    "City": "Siaulai"
+  },
+  {
+    "Name": "Sarah",
+    "Age": 15,
+    "City": "Porthara"
+  }
+]

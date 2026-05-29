@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Kilzi\\OneDrive\\Desktop\\JSON\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49A04208-5A66-4821-A85F-B40E6874E866}|JSON\\JSON.csproj|c:\\users\\kilzi\\onedrive\\desktop\\json\\json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A04208-5A66-4821-A85F-B40E6874E866}|JSON\\JSON.csproj|solutionrelative:json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49A04208-5A66-4821-A85F-B40E6874E866}|JSON\\JSON.csproj|c:\\users\\kilzi\\onedrive\\desktop\\json\\json\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{49A04208-5A66-4821-A85F-B40E6874E866}|JSON\\JSON.csproj|solutionrelative:json\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A04208-5A66-4821-A85F-B40E6874E866}|JSON\\JSON.csproj|c:\\users\\kilzi\\onedrive\\desktop\\json\\json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A04208-5A66-4821-A85F-B40E6874E866}|JSON\\JSON.csproj|solutionrelative:json\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "users.json",
               "DocumentMoniker": "C:\\Users\\Kilzi\\OneDrive\\Desktop\\JSON\\JSON\\users.json",
               "RelativeDocumentMoniker": "JSON\\users.json",
               "ToolTip": "C:\\Users\\Kilzi\\OneDrive\\Desktop\\JSON\\JSON\\users.json",
               "RelativeToolTip": "JSON\\users.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-29T07:42:28.3Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kilzi\\OneDrive\\Desktop\\JSON\\JSON\\Program.cs",
               "RelativeDocumentMoniker": "JSON\\Program.cs",
               "ToolTip": "C:\\Users\\Kilzi\\OneDrive\\Desktop\\JSON\\JSON\\Program.cs",
               "RelativeToolTip": "JSON\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-29T07:27:29.954Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",

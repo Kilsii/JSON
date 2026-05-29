@@ -16,3 +16,4 @@ C:\Users\Kilzi\OneDrive\Desktop\JSON\JSON\obj\Debug\net8.0\refint\JSON.dll
 C:\Users\Kilzi\OneDrive\Desktop\JSON\JSON\obj\Debug\net8.0\JSON.pdb
 C:\Users\Kilzi\OneDrive\Desktop\JSON\JSON\obj\Debug\net8.0\JSON.genruntimeconfig.cache
 C:\Users\Kilzi\OneDrive\Desktop\JSON\JSON\obj\Debug\net8.0\ref\JSON.dll
+C:\Users\Kilzi\OneDrive\Desktop\JSON\JSON\obj\Debug\net8.0\JSON.sourcelink.json
